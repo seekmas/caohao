@@ -1,0 +1,4 @@
+bear_app:
+    resource: "@BearAppBundle/Resources/config/routing.yml"
+    prefix:   /
+

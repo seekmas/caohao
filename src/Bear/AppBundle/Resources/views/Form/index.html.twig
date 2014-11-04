@@ -1,0 +1,152 @@
+{% extends "::base.html.twig" %}
+
+
+{% block body %}
+    {{ form_start(form) }}
+
+
+        <div class="head" id="header">
+            <div class="head_box">
+                <div class="inner wrp">
+                    <div class="logo">
+                        <a target="_blank" href="http://www.biomobie.com/" title="百慕迪预约管理平台">
+                            <img src="/images/logo 220x50-01.png" width="220px" height="50px" /></a></div>
+                    <div class="account">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="body" class="body page_index">
+            <div id="js_container_box" class="container_box side_l">
+                <div class="col_side">
+                    <div class="menu_box" id="menuBar">
+                        <dl id="menu_manage" class="menu  closed">
+                            <dt class="menu_title"><i class="icon_menu manage"></i><i class="icon_menu_switch"></i>
+                                <a href="#">预约申请</a> </dt>
+                        </dl>
+
+                    </div>
+                </div>
+                <div class="col_main">
+
+                    <div style="border: 1px solid #ccc; background: #f3f3f3; padding: 10px;">
+                        <div style="float:left;">
+                            <img id="ContentPlaceHolder1_imgInfo" src="images/info.png" /></div>
+                        <div style="height:311px">
+
+
+                            <h3 align="center">
+                            {% for type, messages in app.session.flashbag.all() %}
+                                {% for message in messages %}
+
+                                    {{ message }}
+
+                                {% endfor %}
+                            {% endfor %}
+                            </h3>
+
+
+                            <table style=" border: 1px solid #000000;" align="center" border="1"
+                                   class="style7">
+                                <tr>
+                                    <td colspan="3" style="text-align: center;" align="center" class="style8">
+                                        百慕迪预约平台
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" align="center" class="style8">
+                                        预约时间：
+                                    </td>
+                                    <td class="style8">
+                                    {{ form_widget(form.date) }}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" align="center" class="style8">
+                                        时间段：
+                                    </td>
+                                    <td class="style8">
+                                        {{ form_widget(form.time) }}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="style4" align="center" rowspan="5" valign="middle">
+                                        人员信息
+                                    </td>
+                                    <td class="style14">
+                                        &nbsp; 姓名：
+                                    </td>
+                                    <td class="style1">
+                                        {{ form_widget(form.name) }}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="style14">
+                                        &nbsp; 性别：
+                                    </td>
+                                    <td class="style8">
+                                        {{ form_widget(form.gender) }}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="style14">
+                                        &nbsp; 年龄：
+                                    </td>
+                                    <td class="style8">
+                                        {{ form_widget(form.age) }}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="style14">
+                                        &nbsp; 电话：
+                                    </td>
+                                    <td class="style8">
+                                        {{ form_widget(form.phone) }}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="style14">
+                                        &nbsp; 邮箱：
+                                    </td>
+                                    <td class="style8">
+                                        {{ form_widget(form.email) }}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" align="center" class="style13">
+                                        <input type="submit" name="ctl00$ContentPlaceHolder1$btn_save" value="预 约" id="ContentPlaceHolder1_btn_save" style="width:64px;" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="dibu">
+                        <div class="dizhi">
+                            <h1>
+                                百慕迪（上海）再生医学科技有限公司</h1>
+                            地址：上海市长宁区仙霞路99号，尚嘉中心办公楼3001-3006<br />
+                            邮编：200051<br />
+                            电话：021-60673968<br />
+                            传真：021-60673966<br />
+                            邮件：info@biomobie.com<br />
+                            网址：<a href="http://www.biomobie.com/" target="_blank">www.biomobie.com </a>
+                            <br />
+                        </div>
+                        <div class="ditu">
+                            <img src="images/ditu.gif" width="419" height="191" /></div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="faq">
+                <ul class="links" style="display: none;">
+                    <li class="links_item no_extra">&nbsp;</li>
+                    <li class="links_item">&nbsp;</li>
+                </ul>
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+    {{ form_end(form) }}
+{% endblock %}

@@ -1,0 +1,71 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>百慕迪预约管理平台</title>
+    <link href="/css/base1a003d.css" rel="stylesheet" type="text/css" />
+    <link href="/css/lib19e425.css" rel="stylesheet" type="text/css" />
+    <link href="/css/page_index1a05b8.css" rel="stylesheet" type="text/css" />
+
+    <style>
+        html
+        {
+            overflow-x: hidden;
+        }
+    </style>
+
+    <style type="text/css">
+        .style1
+        {
+        }
+        .style4
+        {
+            width: 28px;
+        }
+        .style7
+        {
+            width:40%
+        height: 225px;
+        }
+        .style8
+        {
+            height: 28px;
+        }
+        .style13
+        {
+            height: 29px;
+        }
+        .style14
+        {
+            height: 28px;
+            width: 90px;
+        }
+        .btncss
+        {
+            color: White;
+            border: #4d90fe 1px solid;
+            background: #4d90fe;
+        }
+    </style>
+
+
+</head>
+<body>
+{% block body %}{% endblock %}
+
+
+<link rel="stylesheet" type="text/css" href="{{ asset('datepair/lib/bootstrap-datepicker.css') }}" />
+<script type="text/javascript" src="{{ asset('js/jquery.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('datepair/lib/bootstrap-datepicker.js') }}"></script>
+<script type="text/javascript" src="{{ asset('datepair/dist/datepair.js') }}"></script>
+<script>
+    $('.date').datepicker({
+        'format': 'yyyy-m-d',
+        'autoclose': true
+    });
+</script>
+</body>
+</html>
