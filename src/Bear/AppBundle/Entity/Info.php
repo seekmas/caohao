@@ -24,7 +24,7 @@ class Info
     /**
      * @var \DateTime
      *
-     * @ORM\Column(name="date", type="date")
+     * @ORM\Column(name="date", type="string" , length=20)
      */
     private $date;
 
