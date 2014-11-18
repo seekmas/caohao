@@ -1,4 +1,12 @@
 services:
-#    bear_app.example:
-#        class: Bear\AppBundle\Example
-#        arguments: [@service_id, "plain_value", %parameter%]
+    info:
+        class: Doctrine\Common\Persistence\ObjectRepository
+        factory_service: doctrine
+        factory_method: getRepository
+        arguments: [ Bear\AppBundle\Entity\Info ]
+
+    owner:
+        class: Doctrine\Common\Persistence\ObjectRepository
+        factory_service: doctrine
+        factory_method: getRepository
+        arguments: [ Bear\AppBundle\Entity\Owner ]

@@ -1,3 +1,11 @@
+create:
+    path:     /create
+    defaults: { _controller: BearAppBundle:Form:create }
+
 index:
-    path:     /
+    path:     /{name}
     defaults: { _controller: BearAppBundle:Form:index }
+
+list:
+    path:     /{name}/list
+    defaults: { _controller: BearAppBundle:Form:list }

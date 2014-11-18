@@ -41,7 +41,6 @@ class InfoType extends AbstractType
             ->add('email')
         ;
 
-        $builder->add('submit' , 'submit');
     }
     
     /**

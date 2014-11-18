@@ -29,7 +29,7 @@ class Info
     private $date;
 
     /**
-     * @var \DateTime
+     * @var string
      *
      * @ORM\Column(name="time", type="string" , length=20)
      */
@@ -69,6 +69,11 @@ class Info
      * @ORM\Column(name="email", type="string", length=255)
      */
     private $email;
+
+    /**
+     * @ORM\Column(name="owner" , type="string" , length=255)
+     */
+    private $owner;
 
     /**
      * @var \DateTime
@@ -247,6 +252,24 @@ class Info
     public function getEmail()
     {
         return $this->email;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getOwner()
+    {
+        return $this->owner;
+    }
+
+    /**
+     * @return Info
+     * @param mixed $owner
+     */
+    public function setOwner($owner)
+    {
+        $this->owner = $owner;
+        return $this;
     }
 
     /**
