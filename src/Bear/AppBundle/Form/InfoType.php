@@ -15,7 +15,7 @@ class InfoType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('date' , null , ['label' => '预约时间' , 'widget' => 'single_text' , 'attr' => ['class' => 'date']])
+            ->add('date' , null , ['label' => '预约时间' , 'attr' => ['class' => 'date']])
             ->add('time' , 'choice' , [
                 'choices' =>
                     [
@@ -58,6 +58,6 @@ class InfoType extends AbstractType
      */
     public function getName()
     {
-        return 'bear_appbundle_info';
+        return 'bear_app_bundle_info';
     }
 }
