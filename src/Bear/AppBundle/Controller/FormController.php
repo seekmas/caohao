@@ -18,6 +18,7 @@ class FormController extends Controller
         //$request->getSession()->getFlashBag()->add('success' , '预约成功');
         $info = new Info();
         $info->setOwner($name);
+        $info->setCreatedAt(new \Datetime());
         $form = $this->createForm(new InfoType(),$info);
         $form->handleRequest($request);
 
@@ -25,7 +26,7 @@ class FormController extends Controller
         if($form->isValid())
         {
 
-            $info->setCreatedAt(new \Datetime());
+
             $em = $this->getDoctrine()->getManager();
             $em->persist($info);
             $em->flush();
