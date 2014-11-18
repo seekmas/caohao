@@ -22,7 +22,6 @@ class FormController extends Controller
         $form = $this->createForm(new InfoType(),$info);
         $form->handleRequest($request);
 
-        var_dump($form->getData());
         if($form->isValid())
         {
 

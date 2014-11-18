@@ -39,7 +39,7 @@
         {% for i in list %}
         <tr>
             <td>{{ i.id }}</td>
-            <td>{{ i.date | date('Y-m-d') }} {{ i.time }}</td>
+            <td>{{ i.date }} {{ i.time }}</td>
             <td>{{ i.name }}</td>
             <td>{% if i.gender %}男{% else %}女{% endif %}</td>
             <td>{{ i.age }}</td>

@@ -28,31 +28,11 @@
       <file leaf-file-name="FormController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bear/AppBundle/Controller/FormController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.25" vertical-offset="30" max-vertical-offset="2070">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.875" vertical-offset="180" max-vertical-offset="2055">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="e#45#76#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Info.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Bear/AppBundle/Entity/Info.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.875" vertical-offset="171" max-vertical-offset="4545">
-              <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InfoType.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Bear/AppBundle/Form/InfoType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3626943" vertical-offset="15" max-vertical-offset="1005">
-              <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -62,6 +42,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-13.75" vertical-offset="600" max-vertical-offset="2385">
               <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Bear/AppBundle/Resources/views/Form/list.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7927461" vertical-offset="156" max-vertical-offset="1005">
+              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -79,7 +69,6 @@
       <list>
         <option value="$PROJECT_DIR$/web/app.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/src/Bear/AppBundle/Resources/views/Form/list.html.twig" />
         <option value="$PROJECT_DIR$/src/Bear/AppBundle/Resources/views/Form/create.html.twig" />
         <option value="$PROJECT_DIR$/src/Bear/AppBundle/Form/OwnerType.php" />
         <option value="$PROJECT_DIR$/src/Bear/AppBundle/Resources/config/services.yml" />
@@ -87,10 +76,11 @@
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/src/Bear/AppBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/Bear/AppBundle/Controller/FormController.php" />
         <option value="$PROJECT_DIR$/src/Bear/AppBundle/Entity/Info.php" />
         <option value="$PROJECT_DIR$/src/Bear/AppBundle/Resources/views/Form/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Bear/AppBundle/Form/InfoType.php" />
+        <option value="$PROJECT_DIR$/src/Bear/AppBundle/Controller/FormController.php" />
+        <option value="$PROJECT_DIR$/src/Bear/AppBundle/Resources/views/Form/list.html.twig" />
       </list>
     </option>
   </component>
@@ -565,14 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bear/AppBundle/Resources/views/Form/list.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3523316" vertical-offset="156" max-vertical-offset="1005">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="53" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bear/AppBundle/Resources/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17412935" vertical-offset="0" max-vertical-offset="603">
@@ -632,21 +614,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bear/AppBundle/Controller/FormController.php">
+    <entry file="file://$PROJECT_DIR$/src/Bear/AppBundle/Form/InfoType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.25" vertical-offset="30" max-vertical-offset="2070">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#45#76#0#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.3626943" vertical-offset="15" max-vertical-offset="1005">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bear/AppBundle/Entity/Info.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.875" vertical-offset="171" max-vertical-offset="4545">
+        <state vertical-scroll-proportion="0.9481865" vertical-offset="171" max-vertical-offset="4545">
           <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bear/AppBundle/Controller/FormController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875" vertical-offset="180" max-vertical-offset="2055">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#45#76#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -658,10 +648,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bear/AppBundle/Form/InfoType.php">
+    <entry file="file://$PROJECT_DIR$/src/Bear/AppBundle/Resources/views/Form/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3626943" vertical-offset="15" max-vertical-offset="1005">
-          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.7927461" vertical-offset="156" max-vertical-offset="1005">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
           <folding />
         </state>
       </provider>
