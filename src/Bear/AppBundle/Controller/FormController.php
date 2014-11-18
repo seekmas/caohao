@@ -15,7 +15,6 @@ class FormController extends Controller
 {
     public function indexAction(Request $request , $name = 'caohao')
     {
-
         //$request->getSession()->getFlashBag()->add('success' , '预约成功');
         $info = new Info();
         $info->setOwner($name);

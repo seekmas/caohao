@@ -2,6 +2,10 @@ create:
     path:     /create
     defaults: { _controller: BearAppBundle:Form:create }
 
+home:
+    path:     /
+    defaults: { _controller: BearAppBundle:Form:index }
+
 index:
     path:     /{name}
     defaults: { _controller: BearAppBundle:Form:index }
